@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dark Raja</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:#000;
+    color:#00ff00;
+    font-family:Consolas, monospace;
+    text-align:center;
+}
+
+.header{
+    padding:50px;
+}
+
+h1{
+    font-size:50px;
+    text-shadow:0 0 10px #00ff00;
+}
+
+.card{
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border:1px solid #00ff00;
+    box-shadow:0 0 15px #00ff00;
+}
+
+button{
+    background:#00ff00;
+    color:#000;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>DARK RAJA</h1>
+    <p>Cyber Security Enthusiast</p>
+</div>
+
+<div class="card">
+    <h2>About Me</h2>
+    <p>Learning Ethical Hacking & Cyber Security.</p>
+</div>
+
+<div class="card">
+    <h2>Projects</h2>
+    <p>Port Scanner</p>
+    <p>Password Strength Checker</p>
+    <p>File Encryption Tool</p>
+</div>
+
+<div class="card">
+    <h2>Contact</h2>
+    <button>Email Me</button>
+</div>
+
+</body>
+</html>
